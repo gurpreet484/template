@@ -220,8 +220,7 @@ form input, form textarea{
     flex-direction: column;
 }
 .footerImg{
-    width: 80%;
-    height: 400px;
+    width: 100%;
 }
 .footerImg img{
     width: 100%;
@@ -277,8 +276,6 @@ form input, form textarea{
         display: flex;
     }
 
-
-    
     .workContent .box1{
         width: 100%;
         display: flex;
@@ -287,6 +284,16 @@ form input, form textarea{
     }
     .box1 img{
         width: 50%;
+    }
+
+    .about{
+        height: 500px;
+    }
+    .aboutContent, .workHeader, .contactHeader{
+        padding: 10%;
+    }
+    .form{
+        width: 75%;
     }
 }
 
@@ -303,9 +310,18 @@ form input, form textarea{
     }
     .box{
         width: 100%;
+        padding: 2.5% 0;
     }
-    
+    .workContent .box1{
+        align-items: flex-start;
+    }
     .box1 img{
         width: 100%;
+    }
+    .aboutContent, .workHeader, .contactHeader{
+        padding: 5%;
+    }
+    .form{
+        width: 95%;
     }
 }
